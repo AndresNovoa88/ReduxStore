@@ -2,21 +2,20 @@
 
 export const setInc = (val) => {
     return {
-        type: 'INCREMENTAR',
+        type: 'INCREMENTAR', 
         inc: val
     }
 }
 
 export const setEps = (eps) => {
     return {
-        type: 'EPISODIO',
+        type: "EPISODIO", 
         epis: eps
     }
 }
-
-export const setIP = (infper) => {
+export const setInfo = (info) => {
     return {
-        type: 'INFOPER',
-        ip: infper
+        type: "INFORMACION", 
+        info: info
     }
 }
